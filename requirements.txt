@@ -1,0 +1,8 @@
+streamlit>=1.24.0
+yfinance>=0.2.22
+openai>=0.27.8
+python-docx>=0.8.11
+reportlab>=4.0.4
+pandas>=2.0.3
+python-dotenv>=1.0.0
+groq
