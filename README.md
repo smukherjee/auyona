@@ -20,7 +20,8 @@ A Streamlit application that generates valuation summaries for public and privat
    pip install -r requirements.txt
    ```
 
-3. Copy `.env.example` to `.env` and add your OpenAI API key:
+3. Copy `.env.example` to `.env` and add your Grok API key:
+ goto <https://console.groq.com/keys> and get your key
 
    ```bash
    cp .env.example .env
