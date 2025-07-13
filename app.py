@@ -24,6 +24,9 @@ def main():
         ticker = st.text_input("Enter Stock Ticker:", help="e.g., AAPL for Apple Inc.")
         
         if ticker:
+            # Reset summary when new ticker is entered
+            st.session_state.summary = None
+            
             with st.spinner("Fetching company data..."):
                 company_data = get_public_company_data(ticker)
                 
